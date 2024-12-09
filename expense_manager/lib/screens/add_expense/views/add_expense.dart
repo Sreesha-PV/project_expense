@@ -289,6 +289,23 @@ class _AddExpenseState extends State<AddExpense> {
                                                         backgroundColor: Colors.black,
                                                         shape: RoundedRectangleBorder(
                                                             borderRadius: BorderRadius.circular(12))),
+                                                        child: Container(
+                                                        width:MediaQuery.of(context).size.width,
+
+                                                        height:MediaQuery.of(context).size.width / 2,
+
+                                                        decoration: BoxDecoration(
+                                                  gradient: LinearGradient(colors: [
+                                                    Theme.of(context).colorScheme.tertiary,
+                                                    Theme.of(context).colorScheme.secondary,
+                                                    Theme.of(context).colorScheme.primary,
+                                                  ], transform: const GradientRotation(pi / 4)),
+                                                    borderRadius: BorderRadius.circular(25),
+
+                                                  
+                                                  ),
+
+                                                alignment: Alignment.center,
                                                     child: const Text(
                                                       'Save',
                                                       style: TextStyle(fontSize: 22, color: Colors.white),
