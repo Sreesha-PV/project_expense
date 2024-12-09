@@ -1,4 +1,4 @@
-// import 'package:flutter/cupertino.dart';
+tertainment// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 List<Map<String,dynamic>> transactionData=[
@@ -18,8 +18,8 @@ List<Map<String,dynamic>> transactionData=[
     },
   
   {
-    'icon':const Icon(Icons.shopping_bag,color:Colors.white),
-    'name':'Health',
+    'icon':const Icon(Icons.movie,color:Colors.white),
+    'name':'Entertainment',
     'color':Colors.green,
     'totalAmount':'-\$230.00',
     'date':'Yesterday'
@@ -27,8 +27,24 @@ List<Map<String,dynamic>> transactionData=[
      {
     'icon':const Icon(Icons.flight,color:Colors.white),
     'name':'Travel',
-    'color':Colors.blue,
+    'color':Colors.green,
     'totalAmount':'-\$230.00',
     'date':'Yesterday'
     },
+  {
+    'icon':const Icon(Icons.home,color:Colors.white),
+    'name':'Home Rent',
+    'color':Colors.yellow,
+    'totalAmount':'-\$350.00',
+    'date':'Yesterday'
+    },
+
+  {
+    'icon':const Icon(Icons.mobile_friendly,color:Colors.white),
+    'name':'Recharge',
+    'color':Colors.green,
+    'totalAmount':'-\$100.00',
+    'date':'Yesterday'
+    },
+ 
 ];
