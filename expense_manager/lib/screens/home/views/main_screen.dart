@@ -29,7 +29,7 @@
 //                               color: Colors.yellow[700]),
 //                         ),
 //                         Icon(
-//                           CupertinoIcons.person,
+//                           Icons.person_2,
 //                           color: Colors.yellow[800],
 //                         )
 //                       ],
@@ -59,7 +59,7 @@
 //                   ],
 //                 ),
 //                 IconButton(
-//                     onPressed: () {}, icon: const Icon(CupertinoIcons.settings))
+//                     onPressed: () {}, icon: const Icon(Icons.settings))
 //               ],
 //             ),
 //             const SizedBox(height: 20),
