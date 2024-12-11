@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
-import './screens/home/views/home_screen.dart';
+import 'screens/authentication/login_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();  
+  runApp(const MyAppView());
+}
 class MyAppView extends StatelessWidget {
   const MyAppView({super.key});
 
@@ -18,7 +25,7 @@ class MyAppView extends StatelessWidget {
         outline: Colors.grey
     ),
       ),
-      home:const HomeScreen() ,
+      home:const LoginScreen() ,
     );
   }
 }
